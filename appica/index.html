@@ -1,0 +1,390 @@
+<!doctype html>
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<html>
+  
+<!-- Mirrored from the8guild.com/themes/html/appica/ios7.html by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 24 Aug 2014 03:54:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Appica | Responsive Landing Page</title>
+    <meta name="description" content="Responsive Landing Page for Presenting Your Mobile App" />
+		<meta name="keywords" content="responsive html template, landing page, mobile app presentation, bootstrap 3.0, css, jquery" />
+		<meta name="author" content="8Guild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,600' rel='stylesheet' type='text/css'>
+    <!--Bootstrap 3.0.3-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Icons Fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/iconmoon.css" rel="stylesheet" media="screen">
+    <!--Animations-->
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <!-- Custom styles -->
+    <link href="css/style-iOS7.css" rel="stylesheet" media="screen">
+    <!--Modernizr-->
+		<script src="js/modernizr.custom.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+      <link href="css/ie8/style-iOS7-ie8.css" rel="stylesheet" media="screen">
+    <![endif]-->
+
+  <!--Google Analytics-->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46803427-2']);
+            _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  </head>
+  
+  <!--Body-->
+  <body class="parallax" data-stellar-background-ratio="2"><!--By adding Parallax Class we enable Background Parallax effect-->
+  
+  	<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <!--Side Menu-->
+    <aside class="side-menu">
+    	<span class="menu-toggle animated"></span><!--By adding/removing class "animated" we enable/disable page load animations. To change the type of animation go to scripts-VersionName.js to section "Preloading Animation"-->
+      <nav>
+      	<ul>
+        	<li class="active"><a onclick="$('body').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#home"><i class="fa fa-home"></i>Home</a></li>
+        	<li><a onclick="$('#features').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#features"><i class="fa fa-gift"></i>Features</a></li>
+        	<li><a onclick="$('#pricing').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#pricing"><i class="fa fa-dollar"></i>Prices</a></li>
+        	<li><a onclick="$('#team').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#team"><i class="fa fa-user"></i>Our Team</a></li>
+        	<li><a onclick="$('#gallery').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#gallery"><i class="fa fa-picture-o"></i>Gallery</a></li>
+        </ul>
+      </nav>
+    </aside>
+    
+    <!--App Showcase-->
+    <section class="app-showcase container" id="home">
+    	<div class="col-lg-5 col-lg-offset-1 col-md-5">
+      	
+        <!--Presentation Slideshow-->
+        <div id="phone" class="animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+          <div class="slideshow">
+            <ul>
+              <li><img src="img/img-iOS7/slideshow/screen1.jpg" width="223" height="395"  alt="Screen 1"/></li>
+              <li><img src="img/img-iOS7/slideshow/screen2.jpg" width="223" height="395"  alt="Screen 2"/></li>
+              <li><img src="img/img-iOS7/slideshow/screen3.jpg" width="223" height="395"  alt="Screen 3"/></li>
+            </ul>
+          </div>
+          <div class="controls group">
+            <span class="prev"></span>
+            <span>Preview</span>
+            <span class="next"></span>
+          </div>
+        </div>
+      </div>
+    	<div class="col-lg-6 col-md-7 info-block animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+      	<div class="logo"><img src="img/img-iOS7/logo.png" width="276" height="86" alt="Appica"/></div>
+        <h1>Awesome new features</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+        <div class="buttons group">
+        	<a class="appstore-btn" href="#" target="_blank"></a>
+        	<a class="icloud-btn" href="#" target="_blank"></a>
+        </div>
+      </div>
+    </section>
+    
+    <!--Social Networks-->
+    <section class="social">
+    	<div class="container animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+      	<div class="col-lg-6 col-lg-offset-6 col-md-7 col-md-offset-5">
+          <h1>Follow Us</h1>
+          <div class="social-icons si-icon-effect">
+            <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+            <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+            <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+            <a href="#" class="si-icon fa fa-twitter">Twitter</a>
+            <a href="#" class="im-icon-s icon-pinterest-ios">Pinterest</a>
+            <a href="#" class="si-icon fa fa-dribbble last">Dribbble</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!--Features-->
+    <section class="content-block white" id="features">
+      <div class="container">
+      	<div class="row animation" data-animation="fadeInDown"><!--By adding/removing class "animation" we enable/disable scroll animation of current element. In attribute "data-animation" we can choose what animation to use-->
+        	<h1>Features</h1>
+          <h2>Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInLeft"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+              <img src="img/img-iOS7/icons/support.png" width="203" height="203" alt="Fast Support"/>
+              <h2>Fast support</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInLeft"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+              <img src="img/img-iOS7/icons/updates.png" width="203" height="203" alt="Regular Updates"/>
+              <h2>Regular Updates</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInRight"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+              <img src="img/img-iOS7/icons/code.png" width="203" height="203" alt="Clean Code"/>
+              <h2>Clean Code</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInRight"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+              <img src="img/img-iOS7/icons/customizable.png" width="203" height="203" alt="Customizable"/>
+              <h2>Customizable</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Pricing-->
+    <section class="content-block" id="pricing">
+    	<div class="container">
+      	<div class="row animation" data-animation="flipInX"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+        	<h1 class="white">Choose a pricing plan</h1>
+          <h2 class="white">Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInLeft"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="pricing-plan">
+            	<h3>Basic</h3>
+              <ul>
+              	<li><span>$10</span> / month</li>
+              	<li><span>1GB</span> Storage</li>
+              	<li><span>2GB</span> RAM</li>
+              	<li><span>100GB</span> Bandwidth</li>
+              	<li><span>2</span> Email Address</li>
+              	<li>Email Address</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#"><i class="fa fa-dollar"></i>&nbsp;&nbsp;Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInUp"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="pricing-plan">
+            	<h3>Advanced</h3>
+              <ul>
+              	<li><span>$25</span> / month</li>
+              	<li><span>4GB</span> Storage</li>
+              	<li><span>3GB</span> RAM</li>
+              	<li><span>200GB</span> Bandwidth</li>
+              	<li><span>5</span> Email Address</li>
+              	<li>Forum Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#"><i class="fa fa-dollar"></i>&nbsp;&nbsp;Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInUp"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="pricing-plan">
+            	<h3>Pro</h3>
+              <ul>
+              	<li><span>$75</span> / month</li>
+              	<li><span>10GB</span> Storage</li>
+              	<li><span>6GB</span> RAM</li>
+              	<li><span>400GB</span> Bandwidth</li>
+              	<li><span>15</span> Email Address</li>
+              	<li>Live Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#"><i class="fa fa-dollar"></i>&nbsp;&nbsp;Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInRight"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="pricing-plan">
+            	<h3>Enterprise</h3>
+              <ul>
+              	<li><span>$200</span> / month</li>
+              	<li><span>100GB</span> Storage</li>
+              	<li><span>32GB</span> RAM</li>
+              	<li><span>400GB</span> Bandwidth</li>
+              	<li>Unlimited Email Address</li>
+              	<li>Live Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#"><i class="fa fa-dollar"></i>&nbsp;&nbsp;Sign Up</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Team-->
+    <section class="content-block white" id="team">
+    	<div class="container">
+      	<div class="row animation" data-animation="fadeInUp"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+        	<h1>Our Team</h1>
+          <h2>Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInLeft"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="team">
+              <img src="img/img-iOS7/team/kirk.jpg" width="248" height="248" alt="Dexter Kirk"/>
+              <h2>Dexter<br/>Dirk</h2>
+              <h3>CEO,<br/>John Doe Corporation</h3>
+              <div class="social-icons si-icon-effect">
+                <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+                <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+                <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInLeft"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="team">
+              <img src="img/img-iOS7/team/roe.jpg" width="248" height="248" alt="Richard Roe"/>
+              <h2>Richard<br/>Roe</h2>
+              <h3>ART,<br/>John Doe Corporation</h3>
+              <div class="social-icons si-icon-effect">
+                <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+                <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+                <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInRight"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="team">
+              <img src="img/img-iOS7/team/lobzenko.jpg" width="248" height="248" alt="Anna Lobzenko"/>
+              <h2>Anna<br/>Lobzenko</h2>
+              <h3>Manager,<br/>John Doe Corporation</h3>
+              <div class="social-icons si-icon-effect">
+                <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+                <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+                <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInRight"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+          	<div class="team">
+              <img src="img/img-iOS7/team/dou.jpg" width="248" height="248" alt="John Dou"/>
+              <h2>John<br/>Doe</h2>
+              <h3>Cleaning,<br/>John Doe Corporation</h3>
+              <div class="social-icons si-icon-effect">
+                <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+                <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+                <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Clients-->
+    <section class="clients">
+      <div class="container animation" data-animation="bounceIn"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-iOS7/clients/wordpress.png" width="262" height="74" alt="Facebook"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-iOS7/clients/jquery.png" width="262" height="74" alt="Samsung"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-iOS7/clients/woocommerce.png" width="262" height="74" alt="Blackberry"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-iOS7/clients/envato.png" width="262" height="74" alt="Google"/></a>
+        </div>
+      </div>
+    </section>
+    
+    <!--Gallery-->
+    <section class="gallery animation" id="gallery" data-animation="fadeInUp"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+    	<ul>
+      	<li class="violet"><img src="img/img-iOS7/gallery/1.jpg" width="1400" height="900" alt="Gallery1"/></li>
+      	<li class="dark-blue"><img src="img/img-iOS7/gallery/2.jpg" width="1400" height="900" alt="Gallery2"/></li>
+      	<li class="red"><img src="img/img-iOS7/gallery/3.jpg" width="1400" height="900" alt="Gallery3"/></li>
+      </ul>
+    </section>
+    
+    <!--Subscription-->
+    <section class="subscribe">
+    	<div class="container">
+      	<div class="row">
+        	<h1 class="white">Subscribe for our news</h1>
+          <span>Enter your Email. It's spam free</span>
+        </div>
+        <div class="row">
+          <form method="post" class="subscription-form">
+            <input type="email" id="email" name="email">
+            <input class="fa fa-arrow-circle-right" type="submit" id="submit" value="&#xf0a9;">
+            <div class="errors">
+              <span id="error1">Enter Valid Email Adress</span>
+              <span id="error2">Invalid Email Adress</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <!--Footer-->
+    <footer>
+    	<div class="container">
+      	<div class="row">
+        	<div class="col-lg-6 col-md-6">
+          	<div class="copyright">
+              <img src="img/img-iOS7/footer-logo.png" width="366" height="163" alt="Appica"/>
+              <span>&copy; 2013 Appica. All Rights Reserved. Designed by  <a href="http://8guild.com/" target="_blank">8Guild</a></span>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="social-icons si-icon-effect">
+              <a href="#" class="si-icon fa fa-facebook">Facebook</a>
+              <a href="#" class="im-icon-m icon-google-plus-ios">Google Plus</a>
+              <a href="#" class="im-icon-l icon-instagram-ios">Instagram</a>
+              <a href="#" class="si-icon fa fa-twitter">Twitter</a>
+              <a href="#" class="im-icon-s icon-pinterest-ios">Pinterest</a>
+              <a href="#" class="si-icon fa fa-dribbble">Dribbble</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </footer>
+    
+    <!--Javascript (jQuery)-->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/stellar.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/icons-hover.js"></script>
+		<script src="js/animatescroll.js"></script>
+		<script src="js/scripts-iOS7.js"></script>
+
+    <!--Google Remarketing Tag (Placed before </body>)-->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 966923546;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="../../../../www.googleadservices.com/pagead/f.txt">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/966923546/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+    
+  </body><!--/Body-->
+
+<!-- Mirrored from the8guild.com/themes/html/appica/ios7.html by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 24 Aug 2014 03:55:00 GMT -->
+</html>
